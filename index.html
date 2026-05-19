@@ -59,11 +59,11 @@
         <span class="line-reveal">Zainab</span>
         <span class="line-reveal delay-1"><em>Owoilu</em></span>
       </h1>
-      <p class="hero-role line-reveal delay-2">Junior Full-Stack Developer</p>
-      <p class="hero-desc line-reveal delay-3">
-        Building clean, purposeful web applications with <strong>C# · ASP.NET Core</strong> · HTML/CSS/JS.<br>
-        Computer Science graduate. Problem solver. Creative thinker.
-      </p>
+      <p class="hero-role line-reveal delay-2">Full-Stack Developer</p>
+     <p class="hero-desc line-reveal delay-3">
+      Building clean, purposeful web applications and APIs with <strong>C# · ASP.NET Core · .NET 8</strong> · PostgreSQL · HTML/CSS/JS.<br>
+      Computer Science graduate. Problem solver. Creative thinker.
+    </p>
       <div class="hero-actions line-reveal delay-4">
         <a href="#projects" class="btn-primary">View My Work</a>
         <a href="#contact" class="btn-outline">Get In Touch</a>
@@ -72,7 +72,7 @@
       <div class="hero-stats line-reveal delay-5">
         <div class="stat"><span class="stat-num">2+</span><span class="stat-label">Years Experience</span></div>
         <div class="stat-divider"></div>
-        <div class="stat"><span class="stat-num">2+</span><span class="stat-label">Live Projects</span></div>
+        <div class="stat"><span class="stat-num">3+</span><span class="stat-label">Live Projects</span></div>
         <div class="stat-divider"></div>
         <div class="stat"><span class="stat-num">5+</span><span class="stat-label">Certifications</span></div>
       </div>
@@ -116,7 +116,7 @@
         <h2>A developer who builds <em>with purpose</em></h2>
         <p>I'm a Computer Science graduate from Lagos State University with hands-on experience in full-stack web development, media production, and community leadership. What drives me is turning real problems into clean, working solutions.</p>
         <p>From building a <strong>Student Progress Tracking System</strong> with role-based access and live deployment, to leading an entire media & engineering department — I bring both technical discipline and creative energy to every project.</p>
-        <p>I'm actively expanding my skills through Microsoft certifications and open to junior developer roles locally and internationally, especially in teams where I can grow fast and contribute meaningfully.</p>
+        <p>I'm actively expanding my skills through Microsoft certifications and open to developer roles locally and internationally, especially in teams where I can grow fast and contribute meaningfully.</p>
         <div class="about-edu">
           <div class="edu-icon">🎓</div>
           <div>
@@ -284,7 +284,7 @@
         <div class="tl-date">2021 – Present</div>
         <div class="tl-dot"></div>
         <div class="tl-content">
-          <div class="tl-company">Christ the Rebuilders Ministry</div>
+          <div class="tl-company">Christ the Rebuilders Ministry <span class="tl-badge current">Current</span></div>
           <div class="tl-role">Head of Media, Engineering & Technical</div>
           <ul class="tl-list">
             <li>Lead and supervise entire media, engineering and technical team — audio, video, livestreaming</li>
@@ -343,49 +343,79 @@
     <h2 class="section-title reveal">Things I've <em>built</em></h2>
     <div class="projects-grid reveal">
 
-      <div class="project-card featured">
-        <div class="pc-label">Featured Project</div>
-        <h3>Student Progress Tracking System</h3>
-        <p>A full-stack learning management system with role-based access for Admins, Mentors, and Students. Includes dashboards, quiz modules, attendance tracking, certificate generation, and live deployment.</p>
-        <div class="pc-stack">
-          <span>ASP.NET Core MVC</span>
-          <span>PostgreSQL</span>
-          <span>Entity Framework Core</span>
-          <span>ASP.NET Identity</span>
-        </div>
-        <div class="pc-features">
-          <div class="pcf">✓ Role-based authentication</div>
-          <div class="pcf">✓ Dashboard & analytics</div>
-          <div class="pcf">✓ Certificate generation</div>
-          <div class="pcf">✓ Live deployment</div>
-        </div>
-        <div class="pc-links">
-          <a href="https://github.com/Olazee04/SPT" target="_blank" class="pc-btn">View on GitHub ↗</a>
-          <a href="https://rmsysspt.onrender.com" target="_blank" class="pc-btn">View Live ↗</a>
-        </div>
-      </div>
-
-      <div class="project-card">
-        <div class="pc-label">Project</div>
-        <h3>AI-Powered PDF Editor</h3>
-        <p>Advanced PDF editing system with text editing, redaction, annotations, and AI-powered natural language editing commands. Includes version control for document history and recovery.</p>
-        <div class="pc-stack">
-          <span>ASP.NET Core MVC</span>
-          <span>SQLite</span>
-          <span>AI Integration</span>
-        </div>
-        <div class="pc-features">
-          <div class="pcf">✓ AI natural language commands</div>
-          <div class="pcf">✓ Version control & history</div>
-          <div class="pcf">✓ Text redaction & annotations</div>
-        </div>
-        <div class="pc-links">
-          <a href="https://github.com/Olazee04/PDFEditor" target="_blank" class="pc-btn">View on GitHub ↗</a>
-          <a href="https://pdfeditor-sqir.onrender.com" target="_blank" class="pc-btn">View on Live ↗</a>
-        </div>
-      </div>
-
+  <div class="project-card featured">
+    <div class="pc-label">Featured Project</div>
+    <h3>Vendify — E-Commerce Store Builder API</h3>
+    <p>A full-stack REST API for Nigerian merchants to create online stores, manage products, accept payments, and track orders — all through a clean, documented API. Built with Clean Architecture principles and deployed on Render via Docker.</p>
+    <div class="pc-stack">
+      <span>C# .NET 8</span>
+      <span>PostgreSQL</span>
+      <span>Entity Framework Core</span>
+      <span>JWT Auth</span>
+      <span>Paystack</span>
+      <span>Flutterwave</span>
+      <span>Stripe</span>
+      <span>Cloudinary</span>
+      <span>Docker</span>
+      <span>Render</span>
     </div>
+    <div class="pc-features">
+      <div class="pcf">✓ Role-based auth (Admin, Merchant, Customer)</div>
+      <div class="pcf">✓ 3 payment gateways — NGN + international</div>
+      <div class="pcf">✓ Full order lifecycle management</div>
+      <div class="pcf">✓ WhatsApp + email notifications</div>
+      <div class="pcf">✓ Inventory, coupons & analytics dashboard</div>
+      <div class="pcf">✓ Deployed live with Docker + CI/CD</div>
+    </div>
+    <div class="pc-links">
+      <a href="https://github.com/Olazee04/Vendify.API" target="_blank" class="pc-btn">View on GitHub ↗</a>
+      <a href="https://vendify-api-p7ka.onrender.com" target="_blank" class="pc-btn">View on Live ↗</a>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <div class="pc-label">Project</div>
+    <h3>Student Progress Tracking System</h3>
+    <p>A full-stack learning management system with role-based access for Admins, Mentors, and Students. Includes dashboards, quiz modules, attendance tracking, certificate generation, and live deployment.</p>
+    <div class="pc-stack">
+      <span>ASP.NET Core MVC</span>
+      <span>PostgreSQL</span>
+      <span>Entity Framework Core</span>
+      <span>ASP.NET Identity</span>
+    </div>
+    <div class="pc-features">
+      <div class="pcf">✓ Role-based authentication</div>
+      <div class="pcf">✓ Dashboard & analytics</div>
+      <div class="pcf">✓ Certificate generation</div>
+      <div class="pcf">✓ Live deployment</div>
+    </div>
+    <div class="pc-links">
+      <a href="https://github.com/Olazee04/SPT" target="_blank" class="pc-btn">View on GitHub ↗</a>
+      <a href="https://rmsysspt.onrender.com" target="_blank" class="pc-btn">View on Live ↗</a>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <div class="pc-label">Project</div>
+    <h3>AI-Powered PDF Editor</h3>
+    <p>Advanced PDF editing system with text editing, redaction, annotations, and AI-powered natural language editing commands. Includes version control for document history and recovery.</p>
+    <div class="pc-stack">
+      <span>ASP.NET Core MVC</span>
+      <span>SQLite</span>
+      <span>AI Integration</span>
+    </div>
+    <div class="pc-features">
+      <div class="pcf">✓ AI natural language commands</div>
+      <div class="pcf">✓ Version control & history</div>
+      <div class="pcf">✓ Text redaction & annotations</div>
+    </div>
+    <div class="pc-links">
+      <a href="https://github.com/Olazee04/PDFEditor" target="_blank" class="pc-btn">View on GitHub ↗</a>
+      <a href="https://pdfeditor-sqir.onrender.com" target="_blank" class="pc-btn">View on Live ↗</a>
+    </div>
+  </div>
+
+</div>
 
     <div class="github-cta reveal">
       <p>More projects on my GitHub profile</p>
@@ -412,7 +442,7 @@
     <div class="contact-wrapper reveal">
       <div class="contact-left">
         <h2>Let's build something <em>great</em> together</h2>
-        <p>I'm actively looking for junior developer roles — locally in Nigeria and internationally (remote or relocation). Whether it's a short-term project or a long-term position, I'd love to hear from you.</p>
+        <p>I'm actively looking for developer roles — locally in Nigeria and internationally (remote or relocation). Whether it's a short-term project or a long-term position, I'd love to hear from you.</p>
         <div class="contact-links">
           <a href="mailto:owoiluzainaboluwatoyin@gmail.com" class="clink">
             <span class="clink-icon">✉</span>
@@ -461,7 +491,7 @@
   <footer>
     <div class="footer-inner">
       <div class="footer-brand">Zainab<em>.</em></div>
-      <p>Junior Full-Stack Developer · Lagos, Nigeria</p>
+      <p>Full-Stack Developer · Lagos, Nigeria</p>
       <p class="footer-copy">© 2025 Zainab Owoilu · Built with HTML, CSS & JavaScript</p>
     </div>
   </footer>
