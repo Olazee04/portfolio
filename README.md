@@ -1,4 +1,4 @@
-# Zainab Owoilu — Personal Portfolio
+# Zainab Owoilu | Personal Portfolio
 
 A clean, responsive personal portfolio website built with HTML, CSS, and vanilla JavaScript.
 
@@ -23,7 +23,7 @@ A clean, responsive personal portfolio website built with HTML, CSS, and vanilla
 
 ## ✨ Features
 
-- Responsive design — works on mobile, tablet, and desktop
+- Responsive design, works on mobile, tablet, and desktop
 - Smooth scroll animations and reveal effects
 - Animated loader screen
 - Downloadable CV button
@@ -61,7 +61,7 @@ To run this project locally:
    ```
 
 3. Open `index.html` in your browser
-   — or use the **Live Server** extension in VS Code for live reloading
+    or use the **Live Server** extension in VS Code for live reloading
 
 ---
 

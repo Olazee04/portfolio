@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════
-   ZAINAB OWOILU PORTFOLIO — script.js
+   ZAINAB OWOILU PORTFOLIO | script.js
    ═══════════════════════════════════════ */
 
 /* ── LOADER ── */
