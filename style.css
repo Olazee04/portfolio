@@ -1406,3 +1406,47 @@ footer p { color: rgba(245,240,232,0.6); font-size: 0.85rem; margin-bottom: 4px;
   .hero-stats { flex-wrap: wrap; }
   section { padding: 60px 5vw; }
 }
+
+/* Footer links row */
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 12px 0;
+}
+.footer-links a {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.7rem;
+  color: rgba(245,240,232,0.5);
+  text-decoration: none;
+  letter-spacing: 0.06em;
+  transition: color 0.2s;
+}
+.footer-links a:hover { color: var(--cream); }
+
+/* Hero status bar */
+.hero-status-bar {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  color: var(--green2);
+  margin-bottom: 28px;
+  animation: fadeUp 0.8s 1.6s both;
+}
+
+.status-indicator {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--green-light);
+  animation: pulse 2s ease infinite;
+  flex-shrink: 0;
+}
+
+.status-sep {
+  color: var(--border);
+  font-size: 0.9rem;
+}
